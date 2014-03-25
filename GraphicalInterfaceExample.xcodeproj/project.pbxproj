@@ -19,6 +19,8 @@
 		1FE6D08A18E1263500CA67B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE6D07218E1263500CA67B7 /* UIKit.framework */; };
 		1FE6D09218E1263500CA67B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6D09018E1263500CA67B7 /* InfoPlist.strings */; };
 		1FE6D09418E1263500CA67B7 /* GraphicalInterfaceExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6D09318E1263500CA67B7 /* GraphicalInterfaceExampleTests.m */; };
+		1FE6D0A118E126A500CA67B7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6D09F18E126A500CA67B7 /* HomeViewController.m */; };
+		1FE6D0A218E126A500CA67B7 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6D0A018E126A500CA67B7 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		1FE6D08F18E1263500CA67B7 /* GraphicalInterfaceExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphicalInterfaceExampleTests-Info.plist"; sourceTree = "<group>"; };
 		1FE6D09118E1263500CA67B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FE6D09318E1263500CA67B7 /* GraphicalInterfaceExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphicalInterfaceExampleTests.m; sourceTree = "<group>"; };
+		1FE6D09E18E126A500CA67B7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1FE6D09F18E126A500CA67B7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1FE6D0A018E126A500CA67B7 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,7 @@
 		1FE6D07418E1263500CA67B7 /* GraphicalInterfaceExample */ = {
 			isa = PBXGroup;
 			children = (
+				1FE6D09D18E1265800CA67B7 /* View Controllers */,
 				1FE6D07D18E1263500CA67B7 /* AppDelegate.h */,
 				1FE6D07E18E1263500CA67B7 /* AppDelegate.m */,
 				1FE6D08018E1263500CA67B7 /* Images.xcassets */,
@@ -142,6 +148,16 @@
 				1FE6D09018E1263500CA67B7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FE6D09D18E1265800CA67B7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1FE6D09E18E126A500CA67B7 /* HomeViewController.h */,
+				1FE6D09F18E126A500CA67B7 /* HomeViewController.m */,
+				1FE6D0A018E126A500CA67B7 /* HomeViewController.xib */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +237,7 @@
 			files = (
 				1FE6D07918E1263500CA67B7 /* InfoPlist.strings in Resources */,
 				1FE6D08118E1263500CA67B7 /* Images.xcassets in Resources */,
+				1FE6D0A218E126A500CA67B7 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +258,7 @@
 			files = (
 				1FE6D07F18E1263500CA67B7 /* AppDelegate.m in Sources */,
 				1FE6D07B18E1263500CA67B7 /* main.m in Sources */,
+				1FE6D0A118E126A500CA67B7 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
